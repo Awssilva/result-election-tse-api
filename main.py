@@ -12,7 +12,6 @@ data = requests.get(
 json_data = json.loads(data.content)
 
 candidato = []
-partido = []
 votos = []
 porcentagem = []
 
